@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>首页</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  	<%if(isLogin){%>
+  		 <h1>欢迎,<%= name %><a href="/loginout">退出</a></h1>
+  	<%}else{%>
+  			<h1><a href="/login">请登录</a></h1>
+  		<%}%>
+   
+  	<a href="/comment">评论</a>
+  </body>
+</html>

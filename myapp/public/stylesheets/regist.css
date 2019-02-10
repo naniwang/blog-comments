@@ -1,0 +1,9 @@
+.registBox{
+	width: 500px;
+	padding: 30px;
+	border: 1px solid #CECECE;
+	margin: 100px auto;
+}
+.registBox h3{
+	padding-bottom: 30px;
+}
